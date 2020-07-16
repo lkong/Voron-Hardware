@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name STM32_Klipper_Expander-rescue)(type Legacy)(uri ${KIPRJMOD}/STM32_Klipper_Expander-rescue.lib)(options "")(descr ""))
+  (lib (name TRA)(type Legacy)(uri ${KIPRJMOD}/../Klipper_Expander/TRA_KiCad_Library/Schematics/TRA_KiCad_Schematic.lib)(options "")(descr ""))
+  (lib (name tool_head-rescue)(type Legacy)(uri ${KIPRJMOD}/tool_head-rescue.lib)(options "")(descr ""))
+)

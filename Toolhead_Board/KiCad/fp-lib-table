@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TRA)(type KiCad)(uri ${KIPRJMOD}/../TRA_KiCad_Library/Footprints)(options "")(descr ""))
+)
