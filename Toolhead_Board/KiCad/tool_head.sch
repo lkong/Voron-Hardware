@@ -243,28 +243,6 @@ F 6 "301010361" H 1580 6354 50  0001 C CNN "SKU"
 	1    0    0    1   
 $EndComp
 $Comp
-L STM32_Klipper_Expander-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single Q1
-U 1 1 5E269A78
-P 9500 800
-F 0 "Q1" V 9767 800 60  0000 C CNN
-F 1 "IRLML6344TRPBF" V 9661 800 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 1000 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 1100 60  0001 L CNN
-F 4 "AO3400A" V 9500 800 50  0001 C CNN "Alternate PN#"
-F 5 "Discrete Semiconductor Products" H 9700 1400 60  0001 L CNN "Category"
-F 6 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 1600 60  0001 L CNN "DK_Datasheet_Link"
-F 7 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 1700 60  0001 L CNN "DK_Detail_Page"
-F 8 "MOSFET N-CH 30V 5A SOT23" H 9700 1800 60  0001 L CNN "Description"
-F 9 "IRLML6344TRPBFCT-ND" H 9700 1200 60  0001 L CNN "Digi-Key_PN"
-F 10 "Transistors - FETs, MOSFETs - Single" H 9700 1500 60  0001 L CNN "Family"
-F 11 "C20917" V 9500 800 50  0001 C CNN "LCSC"
-F 12 "IRLML6344TRPBF" H 9700 1300 60  0001 L CNN "MPN"
-F 13 "Infineon Technologies" H 9700 1900 60  0001 L CNN "Manufacturer"
-F 14 "Active" H 9700 2000 60  0001 L CNN "Status"
-	1    9500 800 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR021
 U 1 1 5E2B7E60
 P 10000 1500
@@ -580,50 +558,6 @@ F 6 "301010319" H 9530 3704 50  0001 C CNN "SKU"
 	1    9600 3650
 	1    0    0    1   
 $EndComp
-$Comp
-L STM32_Klipper_Expander-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single Q3
-U 1 1 5E3CB1B9
-P 9500 3200
-F 0 "Q3" V 9767 3200 60  0000 C CNN
-F 1 "IRLML6344TRPBF" V 9661 3200 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 3400 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 3500 60  0001 L CNN
-F 4 "AO3400A" V 9500 3200 50  0001 C CNN "Alternate PN#"
-F 5 "Discrete Semiconductor Products" H 9700 3800 60  0001 L CNN "Category"
-F 6 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 4000 60  0001 L CNN "DK_Datasheet_Link"
-F 7 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 4100 60  0001 L CNN "DK_Detail_Page"
-F 8 "MOSFET N-CH 30V 5A SOT23" H 9700 4200 60  0001 L CNN "Description"
-F 9 "IRLML6344TRPBFCT-ND" H 9700 3600 60  0001 L CNN "Digi-Key_PN"
-F 10 "Transistors - FETs, MOSFETs - Single" H 9700 3900 60  0001 L CNN "Family"
-F 11 "C20917" V 9500 3200 50  0001 C CNN "LCSC"
-F 12 "IRLML6344TRPBF" H 9700 3700 60  0001 L CNN "MPN"
-F 13 "Infineon Technologies" H 9700 4300 60  0001 L CNN "Manufacturer"
-F 14 "Active" H 9700 4400 60  0001 L CNN "Status"
-	1    9500 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L STM32_Klipper_Expander-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single Q2
-U 1 1 5E3D0FEE
-P 9500 2000
-F 0 "Q2" V 9767 2000 60  0000 C CNN
-F 1 "IRLML6344TRPBF" V 9661 2000 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 2200 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 2300 60  0001 L CNN
-F 4 "AO3400A" V 9500 2000 50  0001 C CNN "Alternate PN#"
-F 5 "Discrete Semiconductor Products" H 9700 2600 60  0001 L CNN "Category"
-F 6 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 2800 60  0001 L CNN "DK_Datasheet_Link"
-F 7 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 2900 60  0001 L CNN "DK_Detail_Page"
-F 8 "MOSFET N-CH 30V 5A SOT23" H 9700 3000 60  0001 L CNN "Description"
-F 9 "IRLML6344TRPBFCT-ND" H 9700 2400 60  0001 L CNN "Digi-Key_PN"
-F 10 "Transistors - FETs, MOSFETs - Single" H 9700 2700 60  0001 L CNN "Family"
-F 11 "C20917" V 9500 2000 50  0001 C CNN "LCSC"
-F 12 "IRLML6344TRPBF" H 9700 2500 60  0001 L CNN "MPN"
-F 13 "Infineon Technologies" H 9700 3100 60  0001 L CNN "Manufacturer"
-F 14 "Active" H 9700 3200 60  0001 L CNN "Status"
-	1    9500 2000
-	0    -1   -1   0   
-$EndComp
 Text Label 850  1550 0    50   ~ 0
 ~RESET
 Text Label 750  2700 0    50   ~ 0
@@ -887,10 +821,6 @@ Connection ~ 6500 5700
 Connection ~ 6500 5550
 Connection ~ 7750 5700
 Connection ~ 7750 5550
-Text Label 8700 1500 0    50   ~ 0
-Vin
-Wire Wire Line
-	9050 1500 8700 1500
 Wire Wire Line
 	9050 800  9050 850 
 Connection ~ 9050 800 
@@ -912,20 +842,6 @@ F 6 "304090046" H 9089 983 50  0001 C CNN "SKU"
 $EndComp
 Wire Wire Line
 	9050 1150 9050 1200
-$Comp
-L Device:R R15
-U 1 1 5EA23852
-P 9050 1350
-F 0 "R15" H 8980 1304 50  0000 R CNN
-F 1 "4.7K" H 8980 1395 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8980 1350 50  0001 C CNN
-F 3 "~" H 9050 1350 50  0001 C CNN
-F 4 "C17673" H 9050 1350 50  0001 C CNN "LCSC"
-F 5 "RC0805JR-074K7L" H 9050 1350 50  0001 C CNN "MPN"
-F 6 "301010306" H 9050 1350 50  0001 C CNN "SKU"
-	1    9050 1350
-	1    0    0    1   
-$EndComp
 Text Label 8700 3200 0    50   ~ 0
 Mosfet2
 Wire Wire Line
@@ -1036,28 +952,6 @@ F 5 "RC0805JR-07100RL" H 9530 4954 50  0001 C CNN "MPN"
 F 6 "301010319" H 9530 4954 50  0001 C CNN "SKU"
 	1    9600 4900
 	1    0    0    1   
-$EndComp
-$Comp
-L STM32_Klipper_Expander-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single Q4
-U 1 1 5E3C4B7E
-P 9500 4450
-F 0 "Q4" V 9767 4450 60  0000 C CNN
-F 1 "IRLML6344TRPBF" V 9661 4450 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 4650 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 4750 60  0001 L CNN
-F 4 "AO3400A" V 9500 4450 50  0001 C CNN "Alternate PN#"
-F 5 "Discrete Semiconductor Products" H 9700 5050 60  0001 L CNN "Category"
-F 6 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 5250 60  0001 L CNN "DK_Datasheet_Link"
-F 7 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 5350 60  0001 L CNN "DK_Detail_Page"
-F 8 "MOSFET N-CH 30V 5A SOT23" H 9700 5450 60  0001 L CNN "Description"
-F 9 "IRLML6344TRPBFCT-ND" H 9700 4850 60  0001 L CNN "Digi-Key_PN"
-F 10 "Transistors - FETs, MOSFETs - Single" H 9700 5150 60  0001 L CNN "Family"
-F 11 "C20917" V 9500 4450 50  0001 C CNN "LCSC"
-F 12 "IRLML6344TRPBF" H 9700 4950 60  0001 L CNN "MPN"
-F 13 "Infineon Technologies" H 9700 5550 60  0001 L CNN "Manufacturer"
-F 14 "Active" H 9700 5650 60  0001 L CNN "Status"
-	1    9500 4450
-	0    -1   -1   0   
 $EndComp
 Text GLabel 9550 5100 0    50   Input ~ 0
 PWM3
@@ -1367,4 +1261,163 @@ Wire Wire Line
 	6850 4500 7100 4500
 Wire Wire Line
 	6850 4600 7100 4600
+$Comp
+L Device:R R1
+U 1 1 5F68D9F4
+P 2900 5200
+F 0 "R1" H 2830 5154 50  0000 R CNN
+F 1 "10K" H 2830 5245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2830 5200 50  0001 C CNN
+F 3 "~" H 2900 5200 50  0001 C CNN
+F 4 "C17414" H 2900 5200 50  0001 C CNN "LCSC"
+F 5 "RC0805JR-0710KL" H 2830 5254 50  0001 C CNN "MPN"
+F 6 "301010361" H 2830 5254 50  0001 C CNN "SKU"
+	1    2900 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5F68DFD2
+P 2900 4650
+F 0 "#PWR01" H 2900 4500 50  0001 C CNN
+F 1 "+3V3" H 2915 4823 50  0000 C CNN
+F 2 "" H 2900 4650 50  0001 C CNN
+F 3 "" H 2900 4650 50  0001 C CNN
+	1    2900 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F6A4CCA
+P 2900 5350
+F 0 "#PWR06" H 2900 5100 50  0001 C CNN
+F 1 "GND" H 2905 5177 50  0000 C CNN
+F 2 "" H 2900 5350 50  0001 C CNN
+F 3 "" H 2900 5350 50  0001 C CNN
+	1    2900 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5050 2550 5050
+Connection ~ 2900 5050
+Text Label 2550 5050 0    50   ~ 0
+BOOT0
+$Comp
+L Device:R BOOT1
+U 1 1 5F6AEC7E
+P 3250 4900
+F 0 "BOOT1" H 3180 4854 50  0000 R CNN
+F 1 "0R" H 3180 4945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 4900 50  0001 C CNN
+F 3 "~" H 3250 4900 50  0001 C CNN
+F 4 "C17414" H 3250 4900 50  0001 C CNN "LCSC"
+F 5 "RC0805JR-0710KL" H 3180 4954 50  0001 C CNN "MPN"
+F 6 "301010361" H 3180 4954 50  0001 C CNN "SKU"
+	1    3250 4900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2900 5050 3250 5050
+Wire Wire Line
+	3250 4750 2900 4750
+Wire Wire Line
+	2900 4750 2900 4650
+$Comp
+L tool_head-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single-STM32_Klipper_Expander-rescue Q1
+U 1 1 5F71A066
+P 9500 800
+F 0 "Q1" V 9767 800 60  0000 C CNN
+F 1 "IRLML6344TRPBF" V 9661 800 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 1000 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 1100 60  0001 L CNN
+F 4 "IRLML6344TRPBFCT-ND" H 9700 1200 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRLML6344TRPBF" H 9700 1300 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9700 1400 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 9700 1500 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 1600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 1700 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 30V 5A SOT23" H 9700 1800 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 9700 1900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9700 2000 60  0001 L CNN "Status"
+	1    9500 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5EA23852
+P 9050 1350
+F 0 "R15" H 8980 1304 50  0000 R CNN
+F 1 "4.7K" H 8980 1395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8980 1350 50  0001 C CNN
+F 3 "~" H 9050 1350 50  0001 C CNN
+F 4 "C17673" H 9050 1350 50  0001 C CNN "LCSC"
+F 5 "RC0805JR-074K7L" H 9050 1350 50  0001 C CNN "MPN"
+F 6 "301010306" H 9050 1350 50  0001 C CNN "SKU"
+	1    9050 1350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9050 1500 8700 1500
+Text Label 8700 1500 0    50   ~ 0
+Vin
+$Comp
+L tool_head-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single-STM32_Klipper_Expander-rescue Q2
+U 1 1 5F745623
+P 9500 2000
+F 0 "Q2" V 9767 2000 60  0000 C CNN
+F 1 "IRLML6344TRPBF" V 9661 2000 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 2200 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 2300 60  0001 L CNN
+F 4 "IRLML6344TRPBFCT-ND" H 9700 2400 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRLML6344TRPBF" H 9700 2500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9700 2600 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 9700 2700 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 2800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 2900 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 30V 5A SOT23" H 9700 3000 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 9700 3100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9700 3200 60  0001 L CNN "Status"
+	1    9500 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tool_head-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single-STM32_Klipper_Expander-rescue Q3
+U 1 1 5F7472BE
+P 9500 3200
+F 0 "Q3" V 9767 3200 60  0000 C CNN
+F 1 "IRLML6344TRPBF" V 9661 3200 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 3400 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 3500 60  0001 L CNN
+F 4 "IRLML6344TRPBFCT-ND" H 9700 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRLML6344TRPBF" H 9700 3700 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9700 3800 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 9700 3900 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 30V 5A SOT23" H 9700 4200 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 9700 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9700 4400 60  0001 L CNN "Status"
+	1    9500 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tool_head-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single-STM32_Klipper_Expander-rescue Q4
+U 1 1 5F74882F
+P 9500 4450
+F 0 "Q4" V 9767 4450 60  0000 C CNN
+F 1 "IRLML6344TRPBF" V 9661 4450 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 4650 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 4750 60  0001 L CNN
+F 4 "IRLML6344TRPBFCT-ND" H 9700 4850 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRLML6344TRPBF" H 9700 4950 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9700 5050 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 9700 5150 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9700 5250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9700 5350 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 30V 5A SOT23" H 9700 5450 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 9700 5550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9700 5650 60  0001 L CNN "Status"
+	1    9500 4450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

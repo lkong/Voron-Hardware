@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2854)
+    (start_pass_no 1730)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -63,11 +63,10 @@
     )
   )
   (class "kicad_default"
-    GND /Mosfet3 /Vin +3V3 "Net-(D1-Pad2)" /SCL /SDA /D+
-    "/D-" /~RESET /SWDCLK /SWDIO /BOOT0 /Mosfet2 /Mosfet1 /Mosfet0
-    PWM0 PWM1 PWM2 PWM3 /LED "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)"
-    "Net-(Q4-Pad1)" "Net-(F1-Pad2)" T0 T1 GPIO VCC "Net-(D2-Pad2)" "Net-(D3-Pad2)"
-    "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" Neopixel
+    GND /Mosfet3 +3V3 "Net-(D1-Pad2)" /D+ "/D-" /~RESET /BOOT0
+    /Mosfet2 /Mosfet1 /Mosfet0 PWM0 PWM1 PWM2 PWM3 /LED
+    /Vin "Net-(F1-Pad2)" T0 T1 GPIO "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
+    "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" /VBUS "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)" "Net-(Q4-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
